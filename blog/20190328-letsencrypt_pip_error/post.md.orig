@@ -1,0 +1,28 @@
+
+![](letsencrypt-logo-horizontal%5B1%5D.svg?resize=339,81)![](maxresdefault%5B1%5D.jpg?resize=339,200)
+
+유지보수를 맏고 있는 서버가 이미 공식 지원이 끝난 ubuntu 12.04LTS 를 사용하고 있어서, 여러모로 골치 아픈 점이 많다. 오래된 시스템을 운영 하면서 불편한 점이라면
+
+1. apt 등 ubuntu 패키지를 다운받지 못해서 dpkg 나 rpm을 의존성에 맞게 일일이 받아야 할 때
+2. php / wordpress 
+3. https 인증서 
+4. git 등 개발이나 유지보수 필요한 툴들
+
+크게 꼽아 보면 이 정도 인데, wordpress 만 남겨 놓은 상태니 나중에 재계약 등 기회 만 되면 다른 OS로 넘어 가거나 AWS lightsail 같은 데 쓸 수 있는 예산을 받던지 해야 겠다. 
+
+이번에 발생 한 문제는 letsencrypt 를 이용한 https 인증서 갱신 중에 pip 버전을 읽어 오는 부분을 진행하지 못하는 것이었다. 
+
+```/opt/eff.org/certbot/venv/bin/python: No module named pip.main; ‘pip’ is a package and cannot be directly executed
+Traceback (most recent call last):
+File “/tmp/tmp.79grOEfihq/pipstrap.py”, line 177, in 
+sys.exit(main())
+File “/tmp/tmp.79grOEfihq/pipstrap.py”, line 149, in main
+pip_version = StrictVersion(check_output([python, ‘-m’, ‘pip’, ‘–version’])
+File “/usr/lib/python2.7/subprocess.py”, line 544, in check_output
+raise CalledProcessError(retcode, cmd, output=output)
+subprocess.CalledProcessError: Command ‘[’/opt/eff.org/certbot/venv/bin/python’, ‘-m’, ‘pip’, ‘–version’]’ returned non-zero exit status 1
+```
+작년 까지(3개월 전) 멀쩡하다가 갑자기 위와 같은 형태의 에러를 내면서 중단 되는 것인데, 검색 해 보니 예전 부터 이런 문제가 많았고 최근까지 따로 고쳐지지는 않은 모양이다. 
+
+내부 소스의 뭔가 정책 때문에 `pip --version` 으로 실행하지 않고 `venv/bin/python -m pip --version` 으로 실행시킬 때 오류가 나는 문제로 보여지는데 마침 [구글링 해 보니](https://community.letsencrypt.org/t/pip-error-with-certbot-auto/88200) 유사 사례와 해결(?) 방법이 나와 있었고, 여기 나온 대로 `letsencrypt-auto` 파일을 에디터로 열어서 `pip_version = StrictVersion(check_output([‘pip’, ‘–version’]).decode(‘utf-8’).split()[1])` 부분과 `command = ['pip', 'install', '--no-index', '--no-deps', '-U']` 부분을 수정해서 정상적으로 실행 되는 것을 확인 
+

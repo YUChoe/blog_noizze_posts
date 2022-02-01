@@ -1,0 +1,12 @@
+
+* [잡스를 이용하기 [고대문화 11/겨울호]](http://capcold.net/blog/7693)
+* [내가 만났던 스티브 잡스](http://www.appleforum.com/mac-column/61083-%EB%82%B4%EA%B0%80-%EB%A7%8C%EB%82%AC%EB%8D%98-%EC%8A%A4%ED%8B%B0%EB%B8%8C-%EC%9E%A1%EC%8A%A4.html)
+* [스티브잡스의 놀라웠던 다섯가지 능력](http://www.multiwriter.co.kr/845)
+* [스티브 잡스, 거인의 이야기 (CBS)](http://www.appleforum.com/mac-column/60976-%EC%8A%A4%ED%8B%B0%EB%B8%8C-%EC%9E%A1%EC%8A%A4-%EA%B1%B0%EC%9D%B8%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0-%28cbs%29.html)
+* [스티브 잡스 전기 정식 오디오북 무료로 다운로드 받는 방법](http://iphoneblog.co.kr/1091)
+* [[화보] 잡스의 35년, `기술`의 도전사...애플컴퓨터부터 아이패드까지](http://itviewpoint.com/193380)
+* [스티브잡스가 세상을 변화시킨 10가지](http://projectresearch.co.kr/2011/10/16/%ec%8a%a4%ed%8b%b0%eb%b8%8c%ec%9e%a1%ec%8a%a4%ea%b0%80-%ec%84%b8%ec%83%81%ec%9d%84-%eb%b3%80%ed%99%94%ec%8b%9c%ed%82%a8-10%ea%b0%80%ec%a7%80/)
+* [‘혁신’과 ‘이단’의 경계에 서 있던 한 사람을 생각하며](http://mykoreaone.tistory.com/317)
+* [스티브 잡스 명언 베스트 52가지](http://www.multiwriter.co.kr/844)
+* [이제 무대를 떠나는 스티브 잡스의 명언 모음.](http://catntuna.tistory.com/110)
+* [스티브잡스 애플 CEO에서 자진 사퇴, 포스트 스티브잡스 시대의 시작](http://iphoneblog.co.kr/1038)

@@ -1,0 +1,20 @@
+
+한꺼번에 너무 많이 포스트 하니까 스팸 블로그 같아지고 있지만.. 며칠동안 봤거나 메모 해 뒀다가 나중에 볼 글들이 이렇게나 많다. 이번엔 비디오도 추가
+
+* [Python Basics for Data Science - PART 1 | FinanceData](https://financedata.github.io/posts/python-basics-part-1.html)
+* 아이피 주소(IP Address)의 개념을 자세히 이해해보자 (공인 IP, 사설 IP, 고정 IP, 유동 IP와 서버 구축) ![](https://youtu.be/pRWD7oTeuFw)
+* [개발자의 평생공부 - 지디넷코리아](http://m.zdnet.co.kr/column_view.asp?artice_id=20170616090644#imadnews)
+* [GitHub JKKorea/rnn_stock_predictions: Stock predictions with RNN](https://github.com/JKKorea/rnn_stock_predictions)
+* [창업아이템에 대하여 – byeongsoo kim – Medium](https://medium.com/@happyname0617/창업아이템에-대하여-e0ed73053b58)
+* [모바일 UI 디자인 시 고려해야 할 가이드라인 모음 1](https://brunch.co.kr/@chulhochoiucj0/8)
+* ![](https://youtu.be/Yig_zO8a35U)
+* [파이썬 프로젝트의 구조 · 안녕 프로그래밍](https://www.holaxprogramming.com/2017/06/28/python-project-structures/)
+* [Kubernetes by Google](http://kubernetes.io/)
+* [이롭게 바탕체](http://font.iropke.com/batang/#download)
+* [시프티 당신의 시간은 소중합니다 매번 번거로운 직원 근무일정 관리와 출퇴근기록 및 급여정산을 시프티에게 맡기세요](https://shiftee.io/ko)
+* [IoT Standards and Protocols](https://www.postscapes.com/internet-of-things-protocols/)
+* [google authenticator 를 사용하여 Linux ssh 에 OTP 적용하기](https://www.lesstif.com/pages/viewpage.action?pageId=24444948)
+* ![](https://youtu.be/7EctuSTL7-w)
+* ![](https://youtu.be/6LEUWjAqo7U?t=17s)
+* ![](https://youtu.be/Fj1gir4tJbU)
+* ![](https://youtu.be/y_KCK-pHzqk)

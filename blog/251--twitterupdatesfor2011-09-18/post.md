@@ -1,0 +1,1 @@
+![](http://twitter.com/ls_pp/statuses/114982384419614721)

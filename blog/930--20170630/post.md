@@ -1,0 +1,20 @@
+
+원래 계획은 이렇게 링크를 저장하고 나중에 읽으려고차 후에 태그와 카테고리 붙이고 코멘트 하려고 했는데 게속 쌓이기만 하고 있다.
+
+* [Scaling Python Microservices with Kubernetes](http://blog.apcelent.com/scaling-python-microservices-kubernetes.html) 
+* [4 Python libraries for building great command-line user interfaces](https://opensource.com/article/17/5/4-practical-python-libraries) 
+* [개발자가 알아두면 좋은 암호화 알고리즘 및 데이타 암호화 방법.](https://www.slideshare.net/ssuser800974/ss-76664853) 
+* [Programmability for Networker : Part 23 (Config Backup)](http://zigispace.net/931) 
+* [그로스해킹 돕는 8가지 도구](http://www.bloter.net/archives/282664) 
+* [Sultan - Command and Rule Over Your Shell](https://sultan.readthedocs.io/en/latest/) 
+* [대륙에서 맨땅에 헤딩해 얻은 꿀팁 8가지](http://www.venturesquare.net/749816) 
+* [PyFormat Using % and .format() for great good!](https://pyformat.info/) 
+* [메일 내용을 상대방에 순식간에 이해시킬 수 있는 「미군의 테크닉」](http://isao76.egloos.com/2620819) 
+* [[IT열쇳말] SECaaS](http://www.bloter.net/archives/281181) 
+* [Open sourcing the Firebase SDKs](https://opensource.googleblog.com/2017/05/open-sourcing-firebase-sdks.html) 
+* [LTE: UE의 IP 주소 할당 절차 - 유동 IP 주소](http://www.netmanias.com/ko/post/blog/5439/ip-allocation-lte/lte-ue-ip-allocation-procedure-dynamic-ip-address) 
+* [Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 
+* [Buggy Python Code: The 10 Most Common Mistakes That Python Developers Make](https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make) 
+* [locally checks for signs of a rootkit](http://www.chkrootkit.org/) 
+* [NHN엔터 IDC 장애, 원인 들여다보니](http://www.bloter.net/archives/282893) 
+* [스타트업이 망하는이유(5)-순서가 뒤바뀐 잘못된 팀빌딩](https://brunch.co.kr/@533campus/11) 
