@@ -1,0 +1,9 @@
+{
+  "title": "Python C library 연동 테스트", 
+  "taxonomy": {
+    "category": ["blog"], 
+    "tag": ["python", "utf8", "cffi"]
+  }, 
+  "feed": {"limit": 10}, 
+  "date": "13:11 19/08/2022"
+}
