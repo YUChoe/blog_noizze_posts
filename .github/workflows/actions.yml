@@ -1,0 +1,13 @@
+# WIP
+name: run make_json for the new post
+
+on:
+  pull_request:
+    types: closed
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    - name: checkout repository
+      uses: actions/checkout@v1
