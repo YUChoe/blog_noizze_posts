@@ -60,10 +60,7 @@ for d in os.listdir(target_dir):
     # print(item)
 
     month_key = _dt.strftime("%Y_%b")
-    if month_key in monthly_archive:
-        monthly_archive[month_key].append(item['idx'])
-    else:
-        monthly_archive[month_key] = [item['idx']]
+    monthly_archive.setdefault(month_key, []).append(item['idx'])
 
     if 'taxonomy' not in conf or not isinstance(conf['taxonomy']['category'], typing.List):
         # print('no taxonomy/category')
@@ -71,18 +68,14 @@ for d in os.listdir(target_dir):
 
     taxonomy = conf['taxonomy']
     for c in taxonomy['category']:
-        if c in category_list:
-            category_list[c].append(item['idx'])
-        else:
-            category_list[c] = [item['idx']]
+        category_list.setdefault(c, []).append(item['idx'])
 
     for t in taxonomy['tag']:
-        if t in tag_list:
-            tag_list[t].append(item['idx'])
-        else:
-            tag_list[t] = [item['idx']]
+        tag_list.setdefault(t, []).append(item['idx'])
 
 # save json all
+"""
+
 with open(os.path.join(target_dir, 'ordered_list.json'), 'w') as fp:
     json.dump(ordered_list, fp, indent=2)
 
@@ -94,3 +87,5 @@ with open(os.path.join(target_dir, 'monthly_archive.json'), 'w') as fp:
 
 with open(os.path.join(target_dir, 'tag_list.json'), 'w') as fp:
     json.dump(tag_list, fp, sort_keys=True, indent=2)
+
+"""
