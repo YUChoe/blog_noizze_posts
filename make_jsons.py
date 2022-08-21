@@ -74,8 +74,6 @@ for d in os.listdir(target_dir):
         tag_list.setdefault(t, []).append(item['idx'])
 
 # save json all
-"""
-
 with open(os.path.join(target_dir, 'ordered_list.json'), 'w') as fp:
     json.dump(ordered_list, fp, indent=2)
 
@@ -87,5 +85,4 @@ with open(os.path.join(target_dir, 'monthly_archive.json'), 'w') as fp:
 
 with open(os.path.join(target_dir, 'tag_list.json'), 'w') as fp:
     json.dump(tag_list, fp, sort_keys=True, indent=2)
-
-"""
+    
